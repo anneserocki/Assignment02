@@ -16,7 +16,6 @@ if (languageCode != 'es' && languageCode != 'de' && languageCode != `fr` && lang
     console.log(`Hello World translated in English is: Hello World`);
 };
 
-
 // Method 2
 if (languageCode === 'es') {
     console.log(`Hello World translated in Spanish is: Hola Mundo`);
