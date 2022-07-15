@@ -23,6 +23,6 @@ if (languageCode === 'es') {
     console.log(`Hello World translated in German is: Hallo Welt`);
 } else if (languageCode === `fr`) {
     console.log(`Hello World translated in French is: Bonjour le monde`);
-} else if (languageCode != 'es' || languageCode != 'de' || languageCode != `fr` ) {
+} else {
     console.log(`Hello World translated in English is: Hello World`);
 };
