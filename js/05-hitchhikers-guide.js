@@ -18,7 +18,7 @@ if (PromptPlay.toUpperCase() == 'YES') {
         default:
             alert("The ghost of Captain Chingadera has condemned you to eternal damnation and you shall now burn in the hot excoriation for lifeless lowlifes for not choosing the correct option.");
     }; // End switch()
-    rateGame = prompt("Please rate the game between 1 and 10.");
+    rateGame = parseInt(prompt("Please rate the game between 1 and 10."));
     if (rateGame< 1 || rateGame > 10) {
         alert("Thank you, you will quit. See you next time.");
     } else if (rateGame >= 6 && rateGame <= 10) {
@@ -28,7 +28,6 @@ if (PromptPlay.toUpperCase() == 'YES') {
     }; // End if...nested else if for rate game
 } else {
     document.write ("Thank you! Welcome back to  play again sometime");
-    let isPlay = false;
 }  // End if...else for playing or not playing the game
 
 

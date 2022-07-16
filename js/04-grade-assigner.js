@@ -1,4 +1,4 @@
-let score = prompt('Please enter a numbert within 1 to 100');
+let score = parseFloat(prompt('Please enter a numbert within 1 to 100'));
 
 if (score < 0 || score > 100) {
     alert(`The number is not withn 1 to 100, please re-enter a number!`);
